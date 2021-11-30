@@ -24,3 +24,11 @@ print("-----------------------------------------------------")
 # Read the last n lines of the file
 print("Reading the last %d lines of the file" % n)
 print(*lines[-n:], sep="\n")
+
+print("-----------------------------------------------------")
+name = input("Enter the name you want to search: ")
+print("-----------------------------------------------------")
+if name in lines:
+    print("%s is in the file" % name)
+else:
+    print("%s is not in the file" % name)
