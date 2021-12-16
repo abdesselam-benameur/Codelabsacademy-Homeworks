@@ -1,4 +1,4 @@
-even_numbers = list(range(1, 299, 2))
+even_numbers = list(range(2, 299, 2))
 
 print(len(even_numbers))
 
