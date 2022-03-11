@@ -32,3 +32,8 @@ if name in lines:
     print("%s is in the file" % name)
 else:
     print("%s is not in the file" % name)
+    
+# Write a Python program to generate 26 text files named A.txt, B.txt, and so on up to Z.txt.
+for i in range(26):
+    with open('.\%s.txt' % chr(i + ord('A')), 'w') as f:
+        f.write("")
